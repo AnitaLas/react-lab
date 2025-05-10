@@ -24,11 +24,14 @@ function App() {
 
     let message;
     if (email.length < 5) {
-        message = <div>Twój adres e-mail jest za krótki</div>;
+        // message = <div>Twój adres e-mail jest za krótki</div>;
+        message = 'Twój adres e-mail jest za krótki';
     } else if (email.length < 15) {
-        message = <div>Twój adres e-mail jest w sam raz.</div>;
+        // message = <div>Twój adres e-mail jest w sam raz.</div>;
+        message = 'Twój adres e-mail jest w sam raz.';
     } else {
-        message = <div>Twój adres e-mail jest stanowczo za długi.</div>;
+        // message = <div>Twój adres e-mail jest stanowczo za długi.</div>;
+        message = 'Twój adres e-mail jest stanowczo za długi.';
     }
 
     return (
