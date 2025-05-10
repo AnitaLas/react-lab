@@ -34,6 +34,12 @@ function App() {
         message = 'Twój adres e-mail jest stanowczo za długi.';
     }
 
+    //handleButtonClick()
+    function alertEmail(){
+  // console.log("test");
+        alert(email);
+    }
+
     return (
         <div>
             <h1>System do zapisów na zajęcia</h1>
@@ -45,8 +51,15 @@ function App() {
             {/*<h2>Twój e-mail to {test +2+6}</h2>*/}
             {/*<h2>Twój e-mail to {'test' +2+6}</h2>*/}
             {/*<input type="text" value={email} onChange={handleChange}/>*/}
+
             <div>{message}</div>
             <input type="text" value={email} onChange={handleChange}/>
+
+            {/*<button type="button" onClick={() => alert(email)}>*/}
+            {/*    Wyświetl mój e-mail w alercie*/}
+            {/*</button>*/}
+            <button  onClick={alertEmail}> Wyświetl mój e-mail w alercie</button>
+
         </div>
     );
 }
