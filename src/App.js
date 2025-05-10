@@ -59,6 +59,8 @@ function App() {
             {/*    Wyświetl mój e-mail w alercie*/}
             {/*</button>*/}
             <button  onClick={alertEmail}> Wyświetl mój e-mail w alercie</button>
+            {/*<button  onClick={() => alert(email)}> Wyświetl mój e-mail w alercie</button>*/}
+
 
         </div>
     );
