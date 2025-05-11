@@ -7,3 +7,14 @@ export function UserPanel(props) {
 
     );
 }
+
+//v2
+// export function UserPanel({userName ,onLogout }) {
+    // return (
+    //     <div>
+    //         <div> Witaj {props.userName} </div>
+    //         <button  onClick={() => props.onLogout()}> Wyloguj</button>
+    //     </div>
+    //
+    // );
+// }
