@@ -4,7 +4,6 @@ export function LoginForm(props) {
 
     const [email, setEmail] = useState('');
 
-
     function handleChange(event) {
         setEmail(event.target.value);
     }
